@@ -118,8 +118,8 @@ input {
     cursor: pointer;
     border-radius: 2px;
     background-color: white;
-    box-shadow: 0 0 10px black;}
-
+    box-shadow: 0 0 10px black;
+}
 .target .common { 
     position: absolute;
     height: 2px;
@@ -128,22 +128,18 @@ input {
     border-radius: 50px;
     transition: 0.3s ease;
 }
-
-
 input:checked ~ .target .topo {
     left: 0px;
     top: 14px;
     width: 25px;
     transform:rotate(45deg);
 }
-
 input:checked ~ .target .bottom{
     left: 0px;
     top: 13px;
     width: 25px;
     transform: rotate(-45deg);
 }
-
 input:checked ~ .target .mid{
     left: 2px;
     top: 13px;
@@ -151,25 +147,28 @@ input:checked ~ .target .mid{
     transform: translateX(-30px);
     opacity: 0;
 }
-
 .target .topo {
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%); 
-    color: rgb(92, 6, 50);}
-
+    color: rgb(92, 6, 50);
+}
 .target .mid {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: rgb(92, 6, 50);}
-    
+    color: rgb(92, 6, 50);
+}    
 .target .bottom {
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: rgb(92, 6, 50)   ;}
-
+    color: rgb(92, 6, 50)   ;
+}
 input:checked ~ .slide {
     transform: translateX(0px);
 }
+img {width:40%;
+    height: 50%;
+}
+#nav-e { margin-top: 15px;}
