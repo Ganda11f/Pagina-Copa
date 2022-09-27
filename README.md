@@ -8,4 +8,4 @@ Mateus Noleto(MateusNoleto), Mateus  Rodrigues da Silva(Mateus-rccb).🎓
 
 HTML CSS Bootstrap
 
-📃Projeto final:
+📃Projeto final:https://ganda11f.github.io/Pagina-Copa/
